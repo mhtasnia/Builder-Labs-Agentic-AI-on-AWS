@@ -2,7 +2,7 @@
 
 Notes from the guided lab on building a production-ready customer support agent with Strands Agents, AgentCore Memory, AgentCore Gateway and AgentCore Identity.
 
-The full working code and outputs are in the notebook: **[notebook.ipynb](notebook.ipynb)**. Each section below says which part of the notebook it comes from.
+The full working code and outputs are in the notebook: **[notebook _Enhance and Scale Agents with Amazon Bedrock AgentCore.ipnyb](notebook.ipynb)**. Each section below says which part of the notebook it comes from.
 
 ## What the lab builds
 
