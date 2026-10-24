@@ -168,8 +168,4 @@ The cleanup notebook removes the runtime, ECR repository, Cognito user pool and 
 - Test the deployed agent over HTTP the way a client would, with a bearer token and a session ID.
 - Always clean up lab resources.
 
-## Before publishing the notebooks
 
-`Task-3.ipynb` has output cells that print the Cognito username, password, a full bearer token (JWT), the user pool ID, client ID and the AWS account ID. The credentials are temporary and belong to a lab account, but don't publish them. In VS Code or Jupyter, choose **Clear All Outputs** on each notebook, save, and check the file with a text search for `Bearer Token` and `Password` before you commit. Also remember that the lab asks not to enter personal or confidential information into the lab environment.
-
-The notebooks import `utils` (guardrail and Cognito helpers) and show images from the lab's `images` folder, so they will not fully run outside the lab. The images render in the notebooks on GitHub only if the `images` folder sits next to them, which is how this repo is laid out.
