@@ -13,7 +13,7 @@ Self notes from the lab *Build Multi-Agent Collaboration using Amazon Bedrock Ag
 
 ## Requirements
 
-File: [resources/requirements.txt](resources/requirements.txt)
+
 
 ```
 jupyter
