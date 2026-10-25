@@ -123,7 +123,7 @@ def alarms(alarm_name: str) -> str:
 
 ### 1.5 Web research agent
 
-![Web research agent](images/web-agent.png)
+![Web research agent](images/web agent.png)
 
 ```python
 from ddgs import DDGS
