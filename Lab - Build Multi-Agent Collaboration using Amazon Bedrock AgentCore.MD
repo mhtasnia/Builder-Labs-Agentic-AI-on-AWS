@@ -295,9 +295,6 @@ The authorization errors came from the lab account's permissions for the Lambda 
 - **Memory.** Use a per-customer actor ID so facts and summaries stay separate between customers.
 - **Cleanup.** Delete the four runtimes and the memory resource when finished, using `delete_runtime(...)` for the runtimes.
 
-## Related notes
 
-- [AgentCore Runtime lab notes](AgentCore_Runtime_Lab_Notes.md): a finance multi-agent system where the agents run in one process.
-- [AgentCore memory and gateway lab notes](AgentCore_Lab_Notes.md): Memory, Gateway and Identity.
 
 
