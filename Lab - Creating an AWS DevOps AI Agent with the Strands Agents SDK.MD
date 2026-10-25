@@ -319,13 +319,5 @@ Passed. The questions are not included here.
 - **Error handling.** The alarm tool's bare `except` hides the cause of failures. Log the exception.
 - **Web search.** Search results can be wrong or manipulated. Show sources and don't act on them without checking.
 
-## Related notes
-
-- [AgentCore Runtime lab notes](AgentCore_Runtime_Lab_Notes.md): multi-agent finance assistant deployed to AgentCore Runtime.
-- [AgentCore memory and gateway lab notes](AgentCore_Lab_Notes.md): Memory, Gateway and Identity.
-
-## Before publishing
-
-- `lab.ipynb` has output cells with embedded diagram images, so the file is large. In VS Code run **Clear All Outputs** before committing. The notebook paths point to the lab's `/home/ec2-user/environment` folder.
 - The code needs the lab environment (Bedrock permissions, `uvx`, the launch template and the `project` folder), so it will not run elsewhere.
 - Replace any account IDs, subnet IDs, instance IDs or IP addresses in saved output before sharing.
