@@ -201,8 +201,3 @@ Confirm the result in **CloudWatch, Alarms**: `rides-dynamodb-write-throttle` sh
 - **Least privilege.** The agent's roles (`rides-devops-agent-space-role` and the web app role) define what it can see and do. Scope them to what an investigation needs.
 - **Alarm hygiene.** The alarm fires on a single datapoint in one minute, which is very sensitive. A real alarm might need more datapoints before paging someone.
 
-## Related notes
-
-- [AWS DevOps agent built with Strands](DevOps_Agent_Lab_Notes.md): building my own multi-agent DevOps assistant (the do-it-yourself version of this idea).
-- [AgentCore Runtime lab notes](AgentCore_Runtime_Lab_Notes.md)
-
